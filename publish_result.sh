@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dir=$HOME/Workspace/git/drifuzz-panda
+dir=../drifuzz-concolic
 gitlink=git@github.com:buszk/drifuzz-model-result.git
 
 for d in $dir/work/*; do
@@ -12,6 +12,6 @@ for d in $dir/work/*; do
     fi
 done
 
-git add *
-git commit -m "new result"
-git push -f origin master
+#git add *
+#git commit -m "new result"
+#git push -f origin master
